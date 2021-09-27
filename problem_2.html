@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Shopping</title>
+    <style>
+        body{
+            background-image: url(img/bgimage.gif);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .js_style{
+            background-color: rgb(20, 39, 48);
+            padding: 20px;
+            text-align: center;
+            color: rgb(233, 233, 233);
+            width: 50%;
+            margin-left: 22%;
+            border: rgb(151, 13, 214) solid 5px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+        }
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 10%;
+            color: aqua;
+            text-shadow: skyblue 5px;
+        }
+        .next{
+            
+            margin-left: 60%;
+            
+        }
+        a button{
+            background-color:#315376;
+            color: white;
+            padding: 5px 15px;
+            border: rgb(151, 13, 214) solid 2px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            box-shadow: -2px 2px 1px  rgb(125, 131, 182); 
+            margin-right: 3px;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1> assignment shopping </h1>
+
+
+
+    <div  class="js_style" >
+        <script>
+         document.write('GIRLFRIEND SHOPPING CENTER ' + '<br>')
+         document.write( 'Pay Slip ' + '<br>')
+         document.write('<hr>')
+         
+         function items(a, b, c){
+
+            document.write('Laptop Price: ' + a + ' Taka' + 
+            '<br>' + 'Mobile Price: ' + b + ' Taka' + '<br>' + 'Watch Price: ' + c + ' Taka' + '<br>')
+
+            document.write('Total Price: ' + (a+ b + c) + ' Tk')
+         }
+         items( 50000,30000,10000 ) 
+
+
+        </script>
+    </div>
+    
+    <div>
+        <a href="problem_1.html" class="next"><button>Previous</button> </a>
+        <a href="problem_3.html" ><button>Next</button> </a>
+    </div>
+</body>
+</html>

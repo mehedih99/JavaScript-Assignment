@@ -1,0 +1,29 @@
+Problem 1>
+	Girlfreind nia Market e geche 
+	se 3 ta jinish kinbe 
+	1 ta Mobile 
+	1 ta laptop 
+	1 ta Watch
+	Fixed Price value hobe 
+	Out put e 3 ta value thakbe .....
+
+Problem 2> 
+	Bou re niya Hanimun e geche 
+	Ekta hotel e thakse r sei hotel er offer holo 
+	
+	prothom 1-10 din (no discount)
+	11 theke 20 din (20% discount )
+	20 theke holo (50% discount )
+
+	value ber korte hobe 
+	zeno calculate korle accurate value ta ase ....
+
+Problem 3> 
+	Friend List er sobtheke lendthy name ta khuje ber korte hobe 
+	onek gula number ber input kore
+	r lenth sadaronto word count kore out put dibe 
+
+
+			google classroom submit and all group post dite hobe ............
+
+

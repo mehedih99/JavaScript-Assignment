@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment friend list</title>
+    <style>
+        body{
+            background-image: url(img/bgimage.gif);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .js_style{
+            background-color: rgb(20, 39, 48);
+            padding: 20px;
+            text-align: center;
+            color: rgb(233, 233, 233);
+            width: 50%;
+            margin-left: 22%;
+            border: rgb(151, 13, 214) solid 5px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+           
+        }
+        h1{
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 10%;
+            color: aqua;
+            text-shadow: skyblue 5px;
+        }
+        .next{
+            
+            margin-left: 60%;
+            
+        }
+        a button{
+            background-color:#315376;
+            color: white;
+            padding: 5px 15px;
+            border: rgb(151, 13, 214) solid 2px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            box-shadow: -2px 2px 1px  rgb(125, 131, 182); 
+            margin-right: 3px;
+            
+        }
+    </style>
+   
+</head>
+<body>
+    <h1> assignment friend list </h1>
+    <div  class="js_style" >
+        <script>
+           var listOfNames =[ 'Tokyo', 'Raquel',  'The Professor', 'Rio', 'Denver', ' <br>', 'Nairobi', 'Helsinki', 'Aurturo', 'Bogota', 'Julia', 'Marssela', 'Moscow'];
+            document.write('My All Friends' + '<br>' + ' <br>' + listOfNames )
+            document.write('<br>')
+            document.write(' <hr>')
+            document.write( 'Total Friends: '+ listOfNames.length + ' <br/>')
+            
+           function nameLength (specificName){
+               var totalNameCountStartFrom = 0
+               var total;
+
+                for (var i = 0; i< specificName.length; i++){
+                    if( specificName[i].length > totalNameCountStartFrom ) {
+                        total = specificName[i]
+                        totalNameCountStartFrom = specificName[i].length
+                    }
+                }
+                
+                document.write(' Largest Friend Name Latter: '+ totalNameCountStartFrom  + ' <br/>')
+
+
+                return total; 
+           }
+                var finalName = nameLength(listOfNames )
+                document.write(  ' Largest Friend Name: '+  finalName)
+ 
+        </script>
+    </div>
+    
+    <div>
+        <a href="problem_2.html" class="next"><button>Previous</button> </a>
+    </div>
+</body>
+</html>
